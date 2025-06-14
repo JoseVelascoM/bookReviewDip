@@ -1,0 +1,57 @@
+# Directorios de dependencias
+node_modules/
+
+# Archivos de configuración de Expo
+.expo/
+*.jks
+*.p12
+*.key
+*.keystore
+
+# Archivos de caché de Metro
+.cache/
+
+# Logs de Expo
+*.log
+
+# Archivos de depuración y compilación
+*.js.map
+*.ts.map
+*.min.js
+
+# Archivos específicos de plataformas
+android/
+ios/
+
+# Archivos de TypeScript
+*.tsbuildinfo
+
+# Configuración de Firebase (archivos locales, no de producción)
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+# Si tienes variables de entorno en Firebase Functions que no deben subirse
+# .env.local
+# .runtimeconfig.json
+
+# Archivos de entorno local
+.env
+.env.local
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar node_modules específicos de cada subproyecto
+# Aunque 'node_modules/' en la raíz ya lo hace, esto asegura que cualquier otra instancia
+# si un subproyecto tiene su propio .gitignore o si el de la raíz no es suficiente
+bookReview-app/node_modules/
+firebase-server/functions/node_modules/
+
+# Directorios de build para Cloud Functions
+firebase-server/functions/lib/
+firebase-server/functions/dist/
+
+# Otras configuraciones de IDE
+.vscode/
+.idea/
